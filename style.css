@@ -1,0 +1,123 @@
+body{
+    background-color: lightblue;
+}
+
+#header-img{
+    width: 400px;
+    height: 240px;
+}
+
+li{
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+#logo{
+    font-size: 16px;
+    font-weight: 800;
+}
+
+#h-text{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.L-title{
+    font-size: 24px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 8px;
+}
+
+#signup{
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.card-img{
+    width:200px;
+    height: 200px;
+}
+
+.hm-right ul{
+    display: flex;
+    gap: 8px
+}
+
+.Header-menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+
+.Header-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    align-items: flex-start;
+}
+
+.hi-left p{
+    margin-top: 0;
+}
+
+.cards{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.card-img{
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.card-desc{
+    text-align: center;
+}
+
+.T-text{
+    text-align: center;
+}
+.T-name{
+    text-align: end;
+}
+
+.Library{
+    background-color: gray;
+}
+.Header{
+    background-color: white;
+}
+.Testimonial{
+    background-color: lightgray;
+    padding: 0px 50px;
+}
+.Testimonial p{
+    margin: 0;
+    padding: 20px
+}
+.Signup{
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px 50px;
+}
+.SL-title, .SL-text{
+    margin: 0;
+}
+
+.Footer{
+    background-color: white;
+    color: black;
+}
+
+.Footer p{
+    text-align: center;
+    margin: 0;
+    padding: 10px 0px;
+}
